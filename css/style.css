@@ -836,8 +836,7 @@ footer p{
 
 @media screen and (max-width: 484px) {
     .para-card-1 {
-        height: 84px;
-        padding: 14px;
+        height: 86px;
     }
     .container-1 .img-box h3 {
         font-size: 1.5rem;
