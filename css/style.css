@@ -743,7 +743,7 @@ footer p{
     .endBx{
         /* border: 2px solid white; */
         background-color: #050141;
-        height: 76vh;
+        height: 90vh;
         margin-top: 100px;
     }
     footer .foot-para {
@@ -815,6 +815,20 @@ footer p{
         font-size: 2rem;
         margin: 5px auto;
     }
+    .endBx{
+        height: 80vh;
+        padding-bottom: 5px;
+    }
+    .endBx h4 {
+        font-size: 2rem;
+        color: white;
+        margin: 5px 11px;
+    }
+    .endBx .cnt-btn-1 button {
+        margin: 3px 5px;
+        height: 45px;
+        width: 178px;
+    }
 
 }
 
@@ -872,7 +886,7 @@ footer p{
     .endBx{
         /* border: 2px solid white; */
         background-color: #050141;
-        height: 80vh;
+        height: 85vh;
         margin-top: 100px;
     }
     footer .foot-para {
@@ -881,7 +895,7 @@ footer p{
 }
 @media screen and (max-width: 380px) {
 .endBx{
-    height: 95vh;
+    height: 80vh;
     padding-bottom: 5px;
 }
 .endBx h4 {
