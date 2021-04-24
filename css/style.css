@@ -275,7 +275,7 @@ align-items: center;
 .container-1 .img-box h3{
     /* border: 2px solid rgb(223, 9, 98); */
     height: 103px;
-    width: 54%;
+    width: 52%;
     font-size: 2.5rem;
     text-align: center;
     position: absolute;
@@ -638,6 +638,7 @@ footer p{
     
     .cnt-btn button{
         width:300px;
+        border: none;
     }
     .aboutBx h1{
         width: 65%;
@@ -780,6 +781,7 @@ footer p{
     .cnt-btn button{
         height: 50px;
         width:200px;
+        border: none;
     }
     .aboutBx h1{
         letter-spacing: 2px;
@@ -819,6 +821,10 @@ footer p{
 
 
 @media screen and (max-width: 484px) {
+    .para-card-1 {
+        height: 84px;
+        padding: 14px;
+    }
     .container-1 .img-box h3 {
         font-size: 1.5rem;
         right: 25px;
@@ -873,16 +879,25 @@ footer p{
         width: 95%;
     }
 }
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 380px) {
 .endBx{
     height: 95vh;
+    padding-bottom: 5px;
+}
+.endBx h4 {
+    font-size: 2rem;
+    color: white;
+    margin: 5px 11px;
 }
 .endBx .cnt-btn-1 button {
-    margin: 20px 5px;
-    height: 49px;
-    width: 200px;
+    margin: 3px 5px;
+    height: 45px;
+    width: 178px;
 }
-
+.endBx p {
+    font-size: 1.5rem;
+    margin: 5px 6px;
+}
 }
 
 
