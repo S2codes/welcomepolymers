@@ -213,7 +213,7 @@ nav{
     text-transform: uppercase;
     letter-spacing: 9px;
     margin: 9px auto;
-    width: 25%;
+    width: 37%;
     color: #0077b5;
     border-bottom: 2px solid #0077b5;
 }
@@ -446,7 +446,7 @@ align-items: center;
 }
 
 .endBx .cnt-btn-1  button {
-    margin: 17px 0;
+    margin: 20px 15px;
     background-color: #0077b5;
     color: white;
     padding: 3px;
@@ -672,8 +672,9 @@ footer p{
         margin-top: 70px;
     }
     .para-card-1{
-        height: 70px;
-        font-size: 2.3rem;
+        height: 80px;
+        font-size: 2rem;
+        margin:  5px 0;
     }
 
     .container-2{
@@ -737,11 +738,12 @@ footer p{
     .endBx{
         /* border: 2px solid white; */
         background-color: #050141;
-        height: 100vh;
-        /* padding: 19px; */
+        height: 76vh;
         margin-top: 100px;
     }
-
+    footer .foot-para {
+        width: 87%;
+    }
 
 
 
@@ -776,8 +778,8 @@ footer p{
         width:200px;
     }
     .aboutBx h1{
-        letter-spacing: 5px;
-        width: 85%;
+        letter-spacing: 2px;
+        width: 90%;
     }
     .aboutBx p{
         width: 100%;
@@ -785,24 +787,25 @@ footer p{
         padding: 2px;
     }
     .produdctBx h2{
-        letter-spacing: 5px;
-        width: 85%;
+        letter-spacing: 2px;
+    width: 90%;
     }
     .container-1 .img-box h3{
-        
+        /* border: 2px solid rgb(238, 24, 59); */
         right: 6%;
         font-size: 2.2rem;
        
     }
     .container-2 .img-box h3{
-        font-size: 2.2rem;
+        /* border: 2px solid rgb(238, 24, 59); */
+        font-size: 2rem;
     }  
     .aboutBx p{
         text-align: center;
         width: 100%;
     }    
     footer .foot-para {
-        width: 90%;
+        width: 97%;
         font-size: 2rem;
         margin: 5px auto;
     }
@@ -812,21 +815,57 @@ footer p{
 
 
 @media screen and (max-width: 484px) {
+    .container-1 .img-box h3 {
+        font-size: 1.5rem;
+        left: 25px;
+    }
+    .container-2 .img-box h3 {
+        font-size: 1.5rem;
+        left: 25px;
+    }
+    footer img {
+        height: 99px;
+        width: 177px;
+    }
     .foot-contact ul{
-        /* border: 2px solid white; */
+        /* border: 2px solid rgb(214, 21, 21); */
         list-style: none;
-        display: flex;
-        margin:9px 20px;
-        padding: 10px;
+        /* display: flex; */
+        margin:9px 0px;
+        padding: 0px;
+        width: 100%;
+        /* justify-content: left; */
+
+
     }
     .foot-contact ul li{
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* border: 2px solid yellow; */
     }
     .foot-contact ul li a{
         font-size: 1.3rem;
-        margin-left: 0px;
-       
+        /* margin-left: -9px; */
+        margin: 0 auto;
+        padding-right: 5px;
+        display: flex;
+        flex-direction: column;
     }
-
+    .foot-contact ul li a i{
+        font-size: 3rem;
+        text-align: center;
+        margin: 3px 11px;
+    }
     
+    .endBx{
+        /* border: 2px solid white; */
+        background-color: #050141;
+        height: 80vh;
+        margin-top: 100px;
+    }
+    footer .foot-para {
+        width: 95%;
+    }
 }
