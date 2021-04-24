@@ -817,7 +817,7 @@ footer p{
 @media screen and (max-width: 484px) {
     .container-1 .img-box h3 {
         font-size: 1.5rem;
-        left: 25px;
+        right: 25px;
     }
     .container-2 .img-box h3 {
         font-size: 1.5rem;
@@ -869,3 +869,17 @@ footer p{
         width: 95%;
     }
 }
+@media screen and (max-width: 325px) {
+.endBx{
+    height: 95vh;
+}
+.endBx .cnt-btn-1 button {
+    margin: 20px 5px;
+    height: 49px;
+    width: 200px;
+}
+
+}
+
+
+
